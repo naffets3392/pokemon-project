@@ -29,7 +29,7 @@ body {
     }
 
     h3 {
-        font-size: 5rem;
+        font-size: 3.5rem;
         font-weight: 900;
     }
 
@@ -40,7 +40,7 @@ body {
         justify-content: space-between;
 
         .link {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: 600;
         }
 
@@ -66,8 +66,9 @@ body {
         justify-content: space-around;
 
         button {
-            font-size: 1.5rem;
-            padding: 0.4rem;
+            border: none;
+            font-size: 1.3rem;
+            padding: 0.3rem 0.5rem;
             font-weight: 600;
             background-color: rgb(99, 99, 99);
             border-radius: 0.3rem;
@@ -119,7 +120,7 @@ body {
     width: 35vw;
 
     h3 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 900;
     }
 
@@ -130,7 +131,7 @@ body {
     }
 
     label {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 600;
     }
 
@@ -141,7 +142,7 @@ body {
         outline: none;
         border-radius: 0.3rem;
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     div {
@@ -160,9 +161,9 @@ body {
         margin-top: 3rem;
 
         button {
-            width: 200px;
-            padding: 0.7rem;
-            font-size: 2rem;
+            width: 150px;
+            padding: 0.3rem;
+            font-size: 1.5rem;
             font-weight: 600;
             background-color: $primaryColor;
             border-radius: 0.3rem;
@@ -189,7 +190,7 @@ body {
     justify-content: center;
 
     h3 {
-        font-size: 10rem;
+        font-size: 8rem;
         font-weight: 900;
     }
 }
@@ -207,7 +208,7 @@ body {
     width: 35vw;
 
     h3 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 900;
     }
 
@@ -218,17 +219,17 @@ body {
     }
 
     label {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 600;
     }
 
     .confirmPassword__container {
         label {
-            width: 60%;
+            width: 70%;
         }
 
         input {
-            width: 85%;
+            width: 93%;
         }
     }
 
@@ -239,7 +240,7 @@ body {
         outline: none;
         border-radius: 0.3rem;
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     div {
@@ -258,9 +259,9 @@ body {
         margin-top: 3rem;
 
         button {
-            width: 200px;
-            padding: 0.7rem;
-            font-size: 2rem;
+            width: 150px;
+            padding: 0.3rem;
+            font-size: 1.5rem;
             font-weight: 600;
             background-color: $primaryColor;
             border-radius: 0.3rem;
@@ -285,7 +286,7 @@ body {
         justify-content: space-between;
 
        h3 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 900;
         span {
             color: $primaryColor;;
@@ -299,10 +300,10 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -5rem;
+    margin-top: -3rem;
 
     h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         margin-top: -5rem;
         span {
             color: $primaryColor;
@@ -316,9 +317,10 @@ body {
         align-items: center;
         justify-content: space-between;
         height: 6rem;
+        margin-top: -3rem;
 
         input {
-            padding: 1rem;
+            padding: 0.5rem;
             width: 100%;
             background-color:  rgba(0, 0, 0, 0.7);
             border-radius: 0.3rem;
@@ -347,9 +349,9 @@ body {
     box-shadow:5px 5px 5px black;
     border-radius: 1rem;
     height: 50vh;
-    width: 30vw;
+    width: 45vw;
     margin: 0px auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
     overflow: hidden;
     padding: 1rem;
     border: 5px solid black;
@@ -360,18 +362,18 @@ body {
         justify-content: space-between;
 
         .pickup__container {
-            margin-right: 5rem;
+            margin-right: 10rem;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
             
             h1 {
-                font-size: 3rem;
+                font-size: 2rem;
             }
 
             .icon {
-                font-size: 7rem;
+                font-size: 5rem;
                 cursor: pointer;
                 &:hover {
                     color: red;
@@ -383,7 +385,7 @@ body {
     .image__container {
         background-color: black;
         border-radius: 1rem;
-        height: 40%;
+        height: 30%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -391,8 +393,8 @@ body {
 
         div {
             background-color: white;
-            height: 200px;
-            width: 200px;
+            height: 150px;
+            width: 150px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -410,12 +412,21 @@ body {
         color: $primaryColor;
     }
 
+    .heading__container div h1 {
+        font-size: 1.5rem;
+    }
+
+    .heading__container h3 {
+        font-size: 1rem;
+    }
+
     .stats__container {
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         div {
+            font-size: 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -428,7 +439,7 @@ body {
 .myPokemons__container {
     margin-bottom: 3rem;
     h1{
-        font-size: 7rem;
+        font-size: 5rem;
         text-align: center;
 
         span {
@@ -440,7 +451,7 @@ body {
         margin: 0px auto;
         width: 95%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 
@@ -450,7 +461,7 @@ body {
         }
 
         .pickup__container {
-            margin-right: 1rem;
+            margin-right: 10rem;
             h1 {
                 font-size: 2rem;
             }
@@ -468,9 +479,9 @@ body {
 
 .noPokemons__container {
     h1 {
-        font-size: 7rem;
+        font-size: 5rem;
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 10rem;
     }
 
     span {

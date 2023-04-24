@@ -1,5 +1,4 @@
 {
-  "homepage": "https://naffets3392.github.io/pokemon-project",
   "name": "pokemonproject",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +20,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run buil",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,8 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
