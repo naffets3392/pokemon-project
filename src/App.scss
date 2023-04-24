@@ -1,0 +1,480 @@
+$primaryColor: rgb(184, 17, 184);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: 3px;
+}
+
+body {
+    background-color: rgb(90, 90, 90);
+    min-height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+// NAV ********************************************************************************
+.nav__container {
+    height: 10vh;
+    background-color: black;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3, .link {
+        color: $primaryColor;
+    }
+
+    h3 {
+        font-size: 5rem;
+        font-weight: 900;
+    }
+
+    .links-cart__container{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .link {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .nav-links__container {
+            width: 55%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .link {
+                text-decoration: none;
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .cart__container {
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        button {
+            font-size: 1.5rem;
+            padding: 0.4rem;
+            font-weight: 600;
+            background-color: rgb(99, 99, 99);
+            border-radius: 0.3rem;
+            color: $primaryColor;
+            cursor: pointer;
+            &:hover {
+                color: white;
+                background-color: red;
+            }
+        }
+
+        .cart-icon {
+            font-size: 3rem;
+            &:hover {
+                color: white;
+            }
+        }
+
+        .cart-icon__container {
+            position: relative;
+            
+            .cart-number {
+                background-color: red;
+                position: absolute;
+                top: -0.5rem;
+                right: -1rem;
+                height: 2rem;
+                width: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 2rem;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+//SIGNIN *********************************************************************************
+
+.signIn__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 35vw;
+
+    h3 {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .form {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    label {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    input {
+        width: 100%;
+        margin-left: 1rem;
+        padding: 0.3rem;
+        outline: none;
+        border-radius: 0.3rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+
+    .signIn-buttons__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 3rem;
+
+        button {
+            width: 200px;
+            padding: 0.7rem;
+            font-size: 2rem;
+            font-weight: 600;
+            background-color: $primaryColor;
+            border-radius: 0.3rem;
+            cursor: pointer;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+// MODAl ALERT *******************************************************************************
+
+.modalAlert__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        font-size: 10rem;
+        font-weight: 900;
+    }
+}
+
+// SIGN UP ********************************************************************************************
+
+.signUp__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 35vw;
+
+    h3 {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .form {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    label {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .confirmPassword__container {
+        label {
+            width: 60%;
+        }
+
+        input {
+            width: 85%;
+        }
+    }
+
+    input {
+        width: 100%;
+        margin-left: 1rem;
+        padding: 0.3rem;
+        outline: none;
+        border-radius: 0.3rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+
+    .signIn-buttons__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 3rem;
+
+        button {
+            width: 200px;
+            padding: 0.7rem;
+            font-size: 2rem;
+            font-weight: 600;
+            background-color: $primaryColor;
+            border-radius: 0.3rem;
+            cursor: pointer;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+// HOME ***************************************************************************
+
+.home__container {
+    min-height: 90vh;
+    padding: 1rem 3rem;
+
+    .welcome__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+       h3 {
+        font-size: 3rem;
+        font-weight: 900;
+        span {
+            color: $primaryColor;;
+        }
+       }
+    }
+}
+
+.fetching__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -5rem;
+
+    h1 {
+        font-size: 5rem;
+        margin-top: -5rem;
+        span {
+            color: $primaryColor;
+            font-size: 6rem;
+        }
+    }
+
+    .input__container {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 6rem;
+
+        input {
+            padding: 1rem;
+            width: 100%;
+            background-color:  rgba(0, 0, 0, 0.7);
+            border-radius: 0.3rem;
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            .icon {
+                font-size: 3.5rem;
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+}
+
+// POKEMON *****************************************************************
+
+.pokemon__container {
+    background-color: rgb(255,215,0);
+    box-shadow:5px 5px 5px black;
+    border-radius: 1rem;
+    height: 50vh;
+    width: 30vw;
+    margin: 0px auto;
+    margin-top: 3rem;
+    overflow: hidden;
+    padding: 1rem;
+    border: 5px solid black;
+
+    .heading__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .pickup__container {
+            margin-right: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+            h1 {
+                font-size: 3rem;
+            }
+
+            .icon {
+                font-size: 7rem;
+                cursor: pointer;
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+
+    .image__container {
+        background-color: black;
+        border-radius: 1rem;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        div {
+            background-color: white;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 5px solid rgb(255,215,0);
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    .info__container span {
+        color: $primaryColor;
+    }
+
+    .stats__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}
+
+// MY POKEMONS ******************************************************************
+.myPokemons__container {
+    margin-bottom: 3rem;
+    h1{
+        font-size: 7rem;
+        text-align: center;
+
+        span {
+            color: $primaryColor;
+        }
+    }
+
+    .myPokemons-cards__container {
+        margin: 0px auto;
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .pokemonCard__container {
+        h1 {
+            font-size: 2.3rem;
+        }
+
+        .pickup__container {
+            margin-right: 1rem;
+            h1 {
+                font-size: 2rem;
+            }
+
+            span {
+                color: $primaryColor;
+                &:hover {
+                    color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.noPokemons__container {
+    h1 {
+        font-size: 7rem;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    span {
+        color: $primaryColor;
+    }
+}
+
